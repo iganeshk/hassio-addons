@@ -1,5 +1,6 @@
 #!/bin/bash
-# original source from official hassio addon
+# hacked official hassio addon
+
 set -e
 
 CONFIG_PATH=/data/options.json
