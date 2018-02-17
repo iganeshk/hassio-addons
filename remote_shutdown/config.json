@@ -3,7 +3,7 @@
   "version": "1.0",
   "slug": "remote_shutdown",
   "description": "Remotely shutdown windows with additional parameters",
-  "url": "https://github.com/iganeshk/hass-io-addons",
+  "url": "https://github.com/iganeshk/hassio-addons",
   "startup": "services",
   "boot": "auto",
   "stdin": true,
@@ -29,6 +29,5 @@
         "message": "str"
       }
     ]
-  },
-  "image": "homeassistant/remote_shutdown_{arch}"
+  }
 }
