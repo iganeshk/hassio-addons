@@ -1,7 +1,7 @@
 {
   "name": "Windows RPC Shutdown",
   "version": "1.0",
-  "slug": "windows_shutdown",
+  "slug": "remote_shutdown",
   "description": "Remotely shutdown windows with additional parameters",
   "url": "https://github.com/iganeshk/hass-io-addons",
   "startup": "services",
@@ -29,5 +29,5 @@
       }
     ]
   },
-  "image": "homeassistant/windows_shutdown_{arch}"
+  "image": "homeassistant/remote_shutdown_{arch}"
 }
