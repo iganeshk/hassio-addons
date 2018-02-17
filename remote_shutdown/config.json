@@ -29,6 +29,5 @@
         "message": "str"
       }
     ]
-  },
-   // "image": "homeassistant/{arch}-addon-remote_shutdown"
+  }
 }
