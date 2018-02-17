@@ -1,0 +1,33 @@
+{
+  "name": "Windows RPC Shutdown",
+  "version": "1.0",
+  "slug": "windows_shutdown",
+  "description": "Remotely shutdown windows with additional parameters",
+  "url": "https://github.com/iganeshk/hass-io-addons",
+  "startup": "services",
+  "boot": "auto",
+  "stdin": true,
+  "host_network": true,
+  "options": {
+    "computers": [
+      {
+        "alias": "demo-pc",
+        "address": "192.168.1.1",
+        "credentials": "user%password",
+        "time": 5,
+        "message": "Goodbye!"
+      }
+    ]
+  },
+  "schema": {
+    "computers": [
+      {
+        "alias": "match(^[\\w-]*$)",
+        "address": "str",
+        "time": "int",
+        "credentials": "match(^[^%]*(?:%[^%]*)?$)"
+      }
+    ]
+  },
+  "image": "homeassistant/windows_shutdown_{arch}"
+}
