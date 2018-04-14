@@ -1,2 +1,2 @@
 # hassio-addons
-Home Assistant (hass.io) addons
+Personal Home Assistant (hass.io) addons
